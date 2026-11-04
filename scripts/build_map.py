@@ -475,6 +475,12 @@ m.save(out_path_nb)
 sz_mb = os.path.getsize(out_path_nb) / (1024 * 1024)
 print(f"Mapa guardado en {out_path_nb} ({sz_mb:.2f} MB)")
 
+# Guardar en docs/index.html para GitHub Pages
+os.makedirs('docs', exist_ok=True)
+out_path_docs = 'docs/index.html'
+m.save(out_path_docs)
+print(f"Mapa guardado en {out_path_docs} (GitHub Pages listo)")
+
 artifact_path = r'C:\Users\nico_\.gemini\antigravity\brain\2d03620f-8152-4c6c-974b-cbd13d67b3ee\mapa_inundaciones_super_nino.html'
 m.save(artifact_path)
 print(f"Mapa guardado en artefacto {artifact_path}")

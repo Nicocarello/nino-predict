@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![LightGBM](https://img.shields.io/badge/ML-LightGBM%20Hurdle%20Model-02569B)](https://lightgbm.readthedocs.io/)
-[![Interactive Map](https://img.shields.io/badge/Map-Leaflet%20Dark%20Mode-22c55e?logo=leaflet&logoColor=white)](notebooks/mapa_inundaciones_2026.html)
+[![Interactive Map](https://img.shields.io/badge/Live%20Map-GitHub%20Pages-22c55e?logo=leaflet&logoColor=white)](https://nicocarello.github.io/nino-predict/)
 [![Data Source](https://img.shields.io/badge/Data-MAGyP%20%7C%20NOAA%20CPC-green)](https://www.magyp.gob.ar/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -32,7 +32,11 @@ Bajo un escenario proyectado de calentamiento oceánico extremo ($+2.7^\circ\tex
 
 ## 🗺️ Mapa Interactivo Departamental (Modo Oscuro)
 
-El proyecto incluye un visualizador geoespacial completo en **Leaflet / Folium** estilizado en **CartoDB Dark Matter**, accesible en [`notebooks/mapa_inundaciones_2026.html`](notebooks/mapa_inundaciones_2026.html):
+El proyecto incluye un visualizador geoespacial interactivo completo en **Leaflet / Folium** estilizado en **CartoDB Dark Matter**, desplegado directamente en la web con un clic vía **GitHub Pages**:
+
+👉 **[Explorar Mapa Interactivo en Vivo (nicocarello.github.io/nino-predict)](https://nicocarello.github.io/nino-predict/)**
+
+*(También disponible de forma local en el archivo [`notebooks/mapa_inundaciones_2026.html`](notebooks/mapa_inundaciones_2026.html))*:
 
 * **4 Capas Temáticas Conmutables:**
   1. 🌊 *Tasa de Pérdida Global (%)*
