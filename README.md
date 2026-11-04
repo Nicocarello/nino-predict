@@ -18,15 +18,15 @@ Bajo un escenario proyectado de calentamiento oceánico extremo ($+2.7^\circ\tex
 
 | Indicador Agronómico | Estimación Central ($p50$) | Rango de Incertidumbre [$p10 - p90$] | Contexto e Impacto |
 | :--- | :---: | :---: | :--- |
-| **Superficie Sembrada Nacional** | **$36.71\text{ Mha}$** | - | Portafolio base 4 cultivos principales |
-| **Superficie Perdida por Anegamiento** | **$3.03\text{ Mha}$** | **$[0.10\text{ Mha} - 6.62\text{ Mha}]$** | $8.26\%$ de pérdida física por inundación y falta de piso |
-| **Producción Nacional Neta** | **$150.99\text{ MTn}$** | **$[100.80\text{ MTn} - 196.27\text{ MTn}]$** | Cosecha récord global impulsada por lomas con rindes altos |
-| **Pérdida en Maíz (El más vulnerable)** | **$2.12\text{ Mha}$** ($19.87\%$) | **$[0.10\text{ Mha} - 4.26\text{ Mha}]$** | La cosecha tardía en invierno queda atrapada en el barro |
-| **Pérdida en Soja** | **$0.61\text{ Mha}$** ($3.61\%$) | **$[0.00\text{ Mha} - 1.59\text{ Mha}]$** | Mayor ventana operativa previa al invierno |
-| **Pérdida en Trigo** | **$0.28\text{ Mha}$** ($4.26\%$) | **$[0.00\text{ Mha} - 0.76\text{ Mha}]$** | Excesos en espigazón primaveral |
-| **Pérdida en Girasol** | **$0.05\text{ Mha}$** ($1.79\%$) | **$[0.00\text{ Mha} - 0.10\text{ Mha}]$** | Resistencia relativa en zonas semiáridas |
+| **Superficie Sembrada Nacional** | **$36.71\text{ Mha}$** | - | Portafolio base 4 cultivos principales (1.073 combinaciones depto-cultivo) |
+| **Superficie Perdida por Anegamiento** | **$3.06\text{ Mha}$** | **$[0.10\text{ Mha} - 6.71\text{ Mha}]$** | $8.33\%$ de pérdida física nacional por inundación y falta de piso |
+| **Producción Nacional Neta** | **$150.73\text{ MTn}$** | **$[97.52\text{ MTn} - 194.97\text{ MTn}]$** | Volumen histórico récord impulsado por rindes máximos en lomas bien drenadas |
+| **Pérdida en Maíz (El más vulnerable)** | **$2.12\text{ Mha}$** ($19.87\%$) | **$[0.10\text{ Mha} - 4.26\text{ Mha}]$** | Producción: $63.28\text{ MTn}$ (Rinde: $7.399\text{ kg/ha}$). Cosecha tardía atrapada en el barro |
+| **Pérdida en Soja** | **$0.61\text{ Mha}$** ($3.61\%$) | **$[0.00\text{ Mha} - 1.59\text{ Mha}]$** | Producción: $56.43\text{ MTn}$ (Rinde: $3.459\text{ kg/ha}$). Mayor plasticidad y cosecha previa a picos |
+| **Pérdida en Trigo** | **$0.28\text{ Mha}$** ($4.26\%$) | **$[0.00\text{ Mha} - 0.76\text{ Mha}]$** | Producción: $24.42\text{ MTn}$ (Rinde: $3.862\text{ kg/ha}$). Excesos hídricos en espigazón primaveral |
+| **Pérdida en Girasol** | **$0.05\text{ Mha}$** ($1.79\%$) | **$[0.00\text{ Mha} - 0.10\text{ Mha}]$** | Producción: $6.60\text{ MTn}$ (Rinde: $2.680\text{ kg/ha}$). Resistencia relativa en suelos arenosos |
 
-> **La Paradoja del Súper Niño:** El evento produce simultáneamente una **cosecha nacional récord de 151 MTn** (gracias a rindes excepcionales en suelos drenados) y **catástrofes localizadas con 3 millones de hectáreas bajo agua** en los bajos y cuencas endorreicas.
+> **La Paradoja del Súper Niño:** El evento produce simultáneamente una **cosecha nacional récord de 150.7 MTn** (gracias a rindes excepcionales en suelos drenados) y **catástrofes localizadas con 3.06 millones de hectáreas bajo agua** en los bajos y cuencas endorreicas (pudiendo escalar a 6.7 Mha en el escenario pesimista $p90$).
 
 ---
 
@@ -161,3 +161,4 @@ pip install -r requirements.txt
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
+
