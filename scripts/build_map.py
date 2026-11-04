@@ -261,15 +261,17 @@ def style_girasol(f):
     else: c = '#22c55e'
     return {'fillColor': c, 'color': '#0f172a', 'weight': 0.7, 'fillOpacity': 0.85}
 
-# --- CAPAS TEMÁTICAS ---
+# --- CAPAS TEMÁTICAS (overlay=False para selección única mutuamente excluyente / Radio Buttons) ---
 
 layer1 = folium.GeoJson(
     gdf_final,
-    name='⚠️ Tasa Pérdida Global (%) [Activa]',
+    name='⚠️ Tasa Pérdida Global (%)',
     style_function=style_global_loss,
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
-    popup=create_popup()
+    popup=create_popup(),
+    overlay=False,
+    show=True
 )
 layer1.add_to(m)
 
@@ -280,6 +282,7 @@ layer2 = folium.GeoJson(
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
     popup=create_popup(),
+    overlay=False,
     show=False
 )
 layer2.add_to(m)
@@ -291,6 +294,7 @@ layer3 = folium.GeoJson(
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
     popup=create_popup(),
+    overlay=False,
     show=False
 )
 layer3.add_to(m)
@@ -302,6 +306,7 @@ layer4 = folium.GeoJson(
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
     popup=create_popup(),
+    overlay=False,
     show=False
 )
 layer4.add_to(m)
@@ -313,6 +318,7 @@ layer5 = folium.GeoJson(
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
     popup=create_popup(),
+    overlay=False,
     show=False
 )
 layer5.add_to(m)
@@ -324,6 +330,7 @@ layer6 = folium.GeoJson(
     highlight_function=lambda x: {'weight': 2.5, 'color': '#38bdf8', 'fillOpacity': 0.95},
     tooltip=create_tooltip(),
     popup=create_popup(),
+    overlay=False,
     show=False
 )
 layer6.add_to(m)
@@ -401,22 +408,36 @@ custom_dark_css = """
     border-radius: 12px !important;
     color: #f8fafc !important;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.6) !important;
-    padding: 10px 14px !important;
+    padding: 12px 14px !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
-    font-size: 11px !important;
+    font-size: 11.5px !important;
 }
 .leaflet-control-layers-base {
-    display: none !important; /* Asegurar remoción completa */
+    display: block !important;
 }
 .leaflet-control-layers-separator {
     display: none !important;
 }
+.leaflet-control-layers-overlays {
+    display: none !important;
+}
 .leaflet-control-layers label {
     color: #f8fafc !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 6px !important;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
 }
-.leaflet-control-layers-overlays label span {
+.leaflet-control-layers-base label span {
     color: #e2e8f0 !important;
+    font-weight: 500 !important;
+    font-size: 11.5px !important;
+}
+.leaflet-control-layers-base input[type="radio"] {
+    accent-color: #38bdf8 !important;
+    cursor: pointer !important;
+    margin-right: 8px !important;
+    transform: scale(1.15) !important;
 }
 
 /* Popups en Modo Oscuro Elegante */
