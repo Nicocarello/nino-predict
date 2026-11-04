@@ -159,6 +159,14 @@ pip install -r requirements.txt
 
 ---
 
+## ⚠️ Descargo de Responsabilidad (Disclaimer)
+
+* **Propósito Analítico y de Divulgación:** Este proyecto es un desarrollo técnico de modelado estadístico, Machine Learning y simulación prospectiva de escenarios extremos (*stress-testing* agroclimático) con fines estrictamente académicos, analíticos y de investigación en ciencia de datos.
+* **No constituye Pronóstico Operativo Oficial:** Las proyecciones presentadas no reemplazan ni constituyen pronósticos meteorológicos o climáticos oficiales. Toda toma de decisión agronómica, logística o de siembra debe contrastarse con los informes, alertas y estimaciones emitidas por los organismos oficiales competentes: el **Servicio Meteorológico Nacional (SMN)**, el **Instituto Nacional de Tecnología Agropecuaria (INTA)** y la **Secretaría de Agricultura, Ganadería y Pesca (MAGyP)**.
+* **Sin Asesoramiento Financiero ni Comercial:** Las estimaciones de pérdidas departamentales, rindes y volúmenes globales de producción son evaluaciones probabilísticas bajo condiciones de frontera supuestas ($+2.7^\circ\text{C}$ ONI) y no deben ser utilizadas como asesoramiento financiero, comercial o de cobertura en mercados de materias primas (*commodities* / futuros y opciones agrícolas).
+
+---
+
 ## 📄 Licencia
 Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
 
