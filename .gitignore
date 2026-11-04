@@ -1,0 +1,64 @@
+# =============================================================================
+# NIÑO-PREDICT — .gitignore
+# =============================================================================
+
+# --- Entornos Virtuales y Dependencias Locales ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Caché y Compilados de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# --- Jupyter Notebooks & Checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Agentes y Entornos de Desarrollo Locales ---
+.agents/
+.gemini/
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Scripts Temporales de Desarrollo y Scratchpads ---
+scratch/
+tmp/
+temp/
+*.log
+
+# --- Datos Externos Pesados (>50MB GeoJSON y APIs externas) ---
+# Se excluyen geometrías pesadas de INDEC y caché diaria de satélite NASA POWER
+data/external/
+data/external/*
+*.geojson
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Credenciales y Variables de Entorno ---
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
